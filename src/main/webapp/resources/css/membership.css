@@ -1,0 +1,119 @@
+body {
+      background-color: gray;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .card-container {
+      display: flex;
+      justify-content: center;
+    }
+    .card-width {
+      width: 300px;
+      margin: 50px;
+      border-radius: 42px;
+      box-shadow: 2px 2px 22px rgba(0, 0, 0, 0.2);
+      transition: .3s box-shadow, .3s margin-top ease-in-out;
+    }
+    .card-width:hover {
+      box-shadow: 2px 12px 32px rgba(0, 0, 0, 0.5);
+      margin-top: 20px;
+      cursor: pointer;
+    }
+    .img-one {
+      width: 300px;
+      height: 250px;
+      border-radius: 42px;
+      background: url('/resources/image/basic.jpg') no-repeat;
+      background-size: 100%;
+      background-position-y: 0%;
+      background-position-x: 0%;
+    }
+    .card-one {
+      height: 400px;
+      background-color: #FFE697;
+    }
+    .btn-base {
+      display: flex;
+      width: 260px;
+      height: 50px;
+      border-radius: 50px;
+      margin: 0 auto;
+      margin-top: -25px;
+      font-size: 30px;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+    .btn-one {
+      background-color: #FF8A8A;
+    }
+    .card-two {
+      height: 400px;
+      background-color: #E4E4E4;
+    }
+    .img-two {
+      width: 300px;
+      height: 250px;
+      border-radius: 42px;
+      background: url('/resources/image/standard1.jpg') no-repeat;
+      background-size: 100%;
+      background-position-y: 0%;
+      background-position-x: 60%;
+    }
+    .btn-two {
+      background-color: #BFBBBB;
+    }
+    .card-three {
+      height: 400px;
+      background-color:  #FFE697;
+    }
+    .img-three {
+      width: 300px;
+      height: 250px;
+      border-radius: 42px;
+      background: url('/resources/image/gold1.png') no-repeat;
+      background-size: 100%;
+      background-position-y: 100%;
+      background-position-x: 30%;
+    }
+    .btn-three {
+      background-color: #31A2FA;
+    }
+    
+    .card-four {
+      height: 400px;
+      background-color: #B7E0FF;
+    }
+    .img-four {
+      width: 300px;
+      height: 250px;
+      border-radius: 42px;
+      background: url('/resources/image/permium.jpg') no-repeat;
+      background-size: 100%;
+      background-position-y: 100%;
+      background-position-x: 30%;
+    }
+    .btn-four {
+      background-color: #31A2FA;
+    }
+
+    .content {
+      padding: 15px 35px;
+      font-size: 16px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    @media (max-width: 1314px) {
+      .card-container {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+      }
+      .card-width {
+        margin: 0 auto;
+        margin-top: 25px;
+      }
+      .card-width:hover {
+        box-shadow: 2px 12px 32px rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+      }
+    }
